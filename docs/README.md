@@ -4,14 +4,13 @@ Welcome to the OctoAcme project management process documentation. This folder co
 
 ## Overview
 
-OctoAcme uses a lightweight, structured project management approach focused on:
-- **Clear ownership** — each project has a named Project Manager (PM) and Product Manager (PdM)
-- **Iterative delivery** — small, testable increments with regular demos and feedback
-- **Risk management** — proactive identification, assessment, and mitigation of blockers and dependencies
-- **Regular communication** — daily standups, weekly syncs, and transparent status updates to stakeholders
-- **Continuous improvement** — retrospectives after sprints and releases to capture learnings and drive iterative process improvements
+OctoAcme’s customer-first approach prioritizes customer value and usability, with iterative delivery in small, testable increments that invite regular feedback. Teams make data-informed decisions by measuring outcomes and iterating based on evidence. Each project has clear ownership, with a named Project Manager (PM) coordinating delivery and a Product Manager (PdM) owning outcomes and backlog priorities. Psychological safety supports candid feedback, learning, and blameless improvement.
 
-The process spans five key phases: **Initiation** → **Planning** → **Execution** → **Release** → **Close & Retrospective**.
+Projects move through five phases: **Initiation** → **Planning** → **Execution** → **Release** → **Close & Retrospective**. Teams validate the need and align stakeholders in Initiation, then create an actionable backlog, release plan, and risk register in Planning. During Execution, teams track progress, manage dependencies, and deliver reviewed, tested increments. Release standardizes deployment and verification; Close & Retrospective captures learnings and turns them into owned improvement actions.
+
+The PM coordinates plans, schedules, risks, and communications; the PdM defines outcomes, prioritizes work, and measures success. Developers implement features and collaborate on design and testability, QA/Testing validates quality and acceptance criteria, and stakeholders provide input and approvals. The team holds 15-minute daily standups and weekly delivery syncs; the PM and PdM align weekly, while stakeholders receive monthly or milestone-based updates.
+
+Teams raise blockers from team-level triage to the PM, Product Lead, and Sponsor as needed; security incidents also follow the security incident runbook and notify Security on-call. Quality is built in through small pull requests, code review, automated tests and linting in CI, security scanning, and manual QA when needed. Release readiness includes meeting acceptance criteria, passing CI and security scans, and preparing smoke tests; teams verify deployments and communicate releases to stakeholders.
 
 ## Project Lifecycle
 
@@ -75,7 +74,7 @@ For guidance on specific roles, see [OctoAcme Personas](./octoacme-roles-and-per
 
 ## Single Source of Truth
 
-These docs serve as the **single source of truth** for OctoAcme's project management processes. Keep them updated as processes evolve and new learnings emerge. To propose updates or additions, see the [Issue Template for Process Doc Updates](./.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml).
+These docs serve as the **single source of truth** for OctoAcme's project management processes. Keep them updated as processes evolve and new learnings emerge. To propose updates or additions, see the [Issue Template for Process Doc Updates](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml).
 
 ## Quick Links
 
